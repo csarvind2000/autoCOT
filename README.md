@@ -29,7 +29,7 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/autoCOT.git
+   git clone https://github.com/csarvind2000/autoCOT.git
    cd autoCOT
    ```
 
