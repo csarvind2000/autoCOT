@@ -1,33 +1,28 @@
 
-# autoCOT: Automated Chain of Thought with Reflection
+# 🚀 autoCOT: Automated Chain of Thought with Reflection 🤖
 
-`autoCOT` is an automated system for generating Chain of Thought (CoT) reasoning with reflection, designed for processing custom datasets or PDF documents. The system uses **FastAPI** for serving the pipeline and integrates with **LLaMA2-13b** via **Ollama** or **LiteLLM** to generate questions, answers, and reflections. The goal is to improve the quality of reasoning by automating prompt refinement and providing insights.
+`autoCOT` is an advanced, agent-powered system for generating **Chain of Thought (CoT)** reasoning with built-in reflection, perfect for processing custom datasets or PDF documents. With **FastAPI** handling the backend and **LLaMA2-13b** (via **Ollama** or **LiteLLM**) generating insightful questions, answers, and refinements, `autoCOT` automates the entire pipeline—ensuring high-quality prompt generation, deep reasoning, and iterative improvements.
 
-## Features
+---
 
-- **PDF Upload & Text Extraction**: Upload PDF documents for automatic text extraction.
-- **Chain of Thought (CoT)**: Generate detailed CoT reasoning for documents.
-- **Reflection Mechanism**: Review and refine reasoning to improve accuracy.
-- **FastAPI & Streamlit**: Access the service via a REST API or a simple Streamlit interface.
-- **Customizable Models**: Use LLaMA2-13b locally via Ollama or LiteLLM.
+## ✨ Key Features
 
-## Table of Contents
+- 📝 **Automated PDF Upload & Text Extraction**: Upload PDFs and let the system extract and analyze text instantly.
+- 🤖 **Agent-based Chain of Thought (CoT)**: Each question is handled by agents, generating CoT reasoning step-by-step.
+- 🔍 **Reflection Agent**: Our Reflection Agent thoroughly reviews the initial reasoning to improve accuracy and provide clearer answers.
+- ⚡ **Powered by FastAPI & Streamlit**: Seamless API interface with a simple Streamlit front-end for user interaction.
+- ⚙️ **Customizable Models**: Use **LLaMA2-13b** locally through **Ollama** or **LiteLLM**.
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [How It Works](#how-it-works)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Installation
+## 🛠️ Installation
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Python 3.12.3
 - Conda (optional)
 - pip
+
 
 ### Step-by-Step Setup
 
